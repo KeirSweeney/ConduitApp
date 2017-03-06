@@ -18,7 +18,7 @@ const ArticleList = props => {
   return(
     <div>
       {
-        props.articles.map(article =>{
+        props.articles.map(article => {
           return(
             <h2>{article.title}</h2>
           );
