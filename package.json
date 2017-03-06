@@ -2,6 +2,7 @@
   "name": "react-redux-realworld-example-app",
   "version": "0.1.0",
   "private": false,
+   "homepage": "http://keirsweeney.github.io/ConduitApp/",
   "devDependencies": {
     "eslint": "^3.17.0",
     "eslint-plugin-react": "^6.10.0",
