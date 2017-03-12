@@ -1,3 +1,5 @@
+'use strict'
+
 import _superagent from 'superagent';
 import superagentPromise from 'superagent-promise';
 
@@ -13,5 +15,10 @@ const requests = {
 }
 
 const Articles = {
-  
-}
+  all : page => 
+    requests.get('/articles?limit=10')
+};
+
+export default {
+  Articles
+};  
